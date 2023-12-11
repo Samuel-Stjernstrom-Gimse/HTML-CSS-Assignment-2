@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    min-width: 150px;
+    max-width: 300px;
+    width: 15vw;
+    height: 60vh;
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+p {
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: "Lexend Deca", serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 80px;
+    padding: 15px;
+    width: 10vw ;
+    border-radius: 40px;
+    border-width: 0;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", serif;
+    min-width: 105px;
+    font-size: 15px;
+}
+
+#btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.all {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.car-logo {
+    width: 5vw;
+}
+
